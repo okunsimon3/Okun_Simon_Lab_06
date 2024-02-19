@@ -16,8 +16,12 @@ public class MetricConverter {
             }
             else {
                 trash = in.nextLine();
-                System.out.println("You entered " + trash + " as ");
+                System.out.println("You entered " + trash + " as your measurement in meters");
+                System.out.println("Please enter a valid number" + "\n");
             }
         }while (!done);
+        System.out.println("\n" + "Your measurement of " + numMeters + " meters is equivalent to " + (numMeters * 0.0006213712) + " miles");
+        System.out.println("\n" + "Your measurement of " + numMeters + " meters is equivalent to " + (numMeters * 3.280839895) + " feet");
+        System.out.println("\n" + "Your measurement of " + numMeters + " meters is equivalent to " + (numMeters * 39.37007874) + " inches");
     }
 }
