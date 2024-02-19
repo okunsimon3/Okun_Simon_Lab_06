@@ -17,7 +17,7 @@ public class RectangleInfo {
             }
             else {
                 trash = in.nextLine();
-                System.out.println("You entered " + trash + "as the height of your rectangle");
+                System.out.println("You entered " + trash + " as the height of your rectangle");
                 System.out.println("Please enter a valid number" + "\n");
             }
         }while (!done);
@@ -31,7 +31,7 @@ public class RectangleInfo {
             }
             else {
                 trash = in.nextLine();
-                System.out.println("You entered " + trash + "as the width of your rectangle");
+                System.out.println("You entered " + trash + " as the width of your rectangle");
                 System.out.println("Please enter a valid number");
             }
         }while (!done);

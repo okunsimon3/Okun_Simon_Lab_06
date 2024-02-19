@@ -46,7 +46,7 @@ public class FuelCosts {
             }
             else {
                 trash = in.nextLine();
-                System.out.println("You entered " + trash + "as the price of gas per gallon");
+                System.out.println("You entered " + trash + " as the price of gas per gallon");
                 System.out.println("Please enter a valid number");
             }
         }while (!done);
