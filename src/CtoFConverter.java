@@ -21,7 +21,7 @@ public class CtoFConverter {
                 System.out.println("Please enter a valid number" + "\n");
             }
         }while (!done);
-        fTemp = ((cTemp * (9/5)) + 32);
+        fTemp = ((cTemp * 9) / 5)+ 32;
         System.out.println("\n" + "Your temperature, " + cTemp + " degrees Celsius, is " + fTemp + " degrees in Fahrenheit");
     }
 }
