@@ -13,15 +13,15 @@ public class CtoFConverter {
             if(in.hasNextDouble()) {
                 cTemp = in.nextDouble();
                 in.nextLine();
-                fTemp = (cTemp * (9/5)) + 32;
-                System.out.println("Your temperature, " + cTemp + " degrees, is " + fTemp + " degrees in Fahrenheit");
                 done = true;
             }
             else {
                 trash = in.nextLine();
                 System.out.println("You entered " + trash + " as your temperature");
-                System.out.println("Please enter a valid number");
+                System.out.println("Please enter a valid number" + "\n");
             }
         }while (!done);
+        fTemp = ((cTemp * (9/5) + 32));
+        System.out.println("\n" + "Your temperature, " + cTemp + " degrees Celsius, is " + fTemp + " degrees in Fahrenheit");
     }
 }
